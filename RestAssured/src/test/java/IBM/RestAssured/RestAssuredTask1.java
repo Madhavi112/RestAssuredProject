@@ -19,22 +19,26 @@ public class RestAssuredTask1 {
 	public void createUser(ITestContext var1 , ITestContext var2) throws JsonProcessingException {
 		
 		PojoClass1 obj1 = new PojoClass1();
+		obj1.setId(0);
 		obj1.setUsername("Gayathri");
 		obj1.setFirstName("Gayathri");
 		obj1.setLastName("R");
 		obj1.setEmail("Gayathri@gmail.com");
 		obj1.setPassword("Gayathri@123");
 		obj1.setPhone("1234567890");
+		obj1.setUserStatus(0);
 		
 		String uname = obj1.getUsername();
 		String pwd = obj1.getPassword();
 		
+		System.out.println(obj1.getId());
 		System.out.println(uname);
 		System.out.println(obj1.getFirstName());
 		System.out.println(obj1.getLastName());
 		System.out.println(obj1.getEmail());
 		System.out.println(pwd);
 		System.out.println(obj1.getPhone());
+		System.out.println(obj1.getUserStatus());
 		
 		ObjectMapper om1 = new ObjectMapper();
 		
@@ -68,12 +72,15 @@ public class RestAssuredTask1 {
 		System.out.println("User Name : "+"\n"+UserName);
 		
 		PojoClass1 obj1 = new PojoClass1();
+		
+		obj1.setId(0);
 		obj1.setUsername("Gayathri");
 		obj1.setFirstName("Gayathri");
 		obj1.setLastName("R");
 		obj1.setEmail("Gayathri@gmail.com");
 		obj1.setPassword("Gayathri@123");
 		obj1.setPhone("9087654321");
+		obj1.setUserStatus(0);
 				
 		ObjectMapper om1 = new ObjectMapper();
 		

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8578" started-at="2022-03-15T06:10:43Z" finished-at="2022-03-15T06:10:51Z">
+  <suite name="Default suite" duration-ms="8870" started-at="2022-03-15T06:44:17Z" finished-at="2022-03-15T06:44:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8578" started-at="2022-03-15T06:10:43Z" finished-at="2022-03-15T06:10:51Z">
+    <test name="Default test" duration-ms="8870" started-at="2022-03-15T06:44:17Z" finished-at="2022-03-15T06:44:26Z">
       <class name="IBM.RestAssured.RestAssuredTask1">
-        <test-method status="PASS" signature="createUser(org.testng.ITestContext, org.testng.ITestContext)[pri:0, instance:IBM.RestAssured.RestAssuredTask1@53b32d7]" name="createUser" duration-ms="2892" started-at="2022-03-15T06:10:43Z" finished-at="2022-03-15T06:10:45Z">
+        <test-method status="PASS" signature="createUser(org.testng.ITestContext, org.testng.ITestContext)[pri:0, instance:IBM.RestAssured.RestAssuredTask1@53b32d7]" name="createUser" duration-ms="3297" started-at="2022-03-15T06:44:17Z" finished-at="2022-03-15T06:44:21Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="modifyUser(org.testng.ITestContext)[pri:0, instance:IBM.RestAssured.RestAssuredTask1@53b32d7]" name="modifyUser" duration-ms="1445" started-at="2022-03-15T06:10:45Z" depends-on-methods="IBM.RestAssured.RestAssuredTask1.createUser" finished-at="2022-03-15T06:10:47Z">
+        <test-method status="PASS" signature="modifyUser(org.testng.ITestContext)[pri:0, instance:IBM.RestAssured.RestAssuredTask1@53b32d7]" name="modifyUser" duration-ms="1416" started-at="2022-03-15T06:44:21Z" depends-on-methods="IBM.RestAssured.RestAssuredTask1.createUser" finished-at="2022-03-15T06:44:22Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- modifyUser -->
-        <test-method status="PASS" signature="userLogin(org.testng.ITestContext, org.testng.ITestContext)[pri:0, instance:IBM.RestAssured.RestAssuredTask1@53b32d7]" name="userLogin" duration-ms="1395" started-at="2022-03-15T06:10:47Z" depends-on-methods="IBM.RestAssured.RestAssuredTask1.createUser" finished-at="2022-03-15T06:10:48Z">
+        <test-method status="PASS" signature="userLogin(org.testng.ITestContext, org.testng.ITestContext)[pri:0, instance:IBM.RestAssured.RestAssuredTask1@53b32d7]" name="userLogin" duration-ms="1381" started-at="2022-03-15T06:44:22Z" depends-on-methods="IBM.RestAssured.RestAssuredTask1.createUser" finished-at="2022-03-15T06:44:23Z">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogin -->
-        <test-method status="PASS" signature="userDelete(org.testng.ITestContext)[pri:0, instance:IBM.RestAssured.RestAssuredTask1@53b32d7]" name="userDelete" duration-ms="1457" started-at="2022-03-15T06:10:48Z" depends-on-methods="IBM.RestAssured.RestAssuredTask1.userLogin" finished-at="2022-03-15T06:10:50Z">
+        <test-method status="PASS" signature="userDelete(org.testng.ITestContext)[pri:0, instance:IBM.RestAssured.RestAssuredTask1@53b32d7]" name="userDelete" duration-ms="1350" started-at="2022-03-15T06:44:23Z" depends-on-methods="IBM.RestAssured.RestAssuredTask1.userLogin" finished-at="2022-03-15T06:44:25Z">
           <params>
             <param index="0">
               <value>
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userDelete -->
-        <test-method status="PASS" signature="userLogout()[pri:0, instance:IBM.RestAssured.RestAssuredTask1@53b32d7]" name="userLogout" duration-ms="1358" started-at="2022-03-15T06:10:50Z" depends-on-methods="IBM.RestAssured.RestAssuredTask1.userLogin" finished-at="2022-03-15T06:10:51Z">
+        <test-method status="PASS" signature="userLogout()[pri:0, instance:IBM.RestAssured.RestAssuredTask1@53b32d7]" name="userLogout" duration-ms="1398" started-at="2022-03-15T06:44:25Z" depends-on-methods="IBM.RestAssured.RestAssuredTask1.userLogin" finished-at="2022-03-15T06:44:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogout -->

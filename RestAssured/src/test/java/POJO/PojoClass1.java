@@ -2,12 +2,27 @@ package POJO;
 
 public class PojoClass1 {
  
+	private int id;
 	private String username;
 	private String firstName;
 	private String lastName;
 	private String email;
 	private String password;
 	private String phone;
+	private int userStatus;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getUserStatus() {
+		return userStatus;
+	}
+	public void setUserStatus(int userStatus) {
+		this.userStatus = userStatus;
+	}
 	public String getUsername() {
 		return username;
 	}
